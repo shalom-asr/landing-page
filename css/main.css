@@ -3154,3 +3154,19 @@ img.spin {
 }
 
 /*# sourceMappingURL=maps/main.css.map */
+
+#firstImage{
+  margin: 5vh auto;
+  width: 80%!important;
+  max-width: 1000px;
+}
+
+@media (max-width: 600px) {
+  #firstImage{
+    width:100% !important;
+  }
+}
+
+.site-wrapper.overflow-hidden.position-relative{
+  padding: 10px;
+}

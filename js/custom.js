@@ -59,6 +59,18 @@ $(document).ready(function() {
         } // End if
     });
 
+    $(`#submitContactUs`).on(`click`,function(e){
+        e.preventDefault()
+        let name ,email ,subject ,msg 
+        name = $(`#name`).val()
+        email = $(`#email`).val()
+        subject = $(`#subject`).val()
+        msg = $(`#message`).val()
+        localStorage.setItem(`${email}`,JSON.stringify({name,email,subject,msg}))
+        location.reload()
+        alert(`Message sended`)
+    })
+
 
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
@@ -99,6 +111,8 @@ $(document).ready(function() {
             }, ],
         });
     }
+
+
 
 
 
