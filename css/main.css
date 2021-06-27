@@ -3170,3 +3170,7 @@ img.spin {
 .site-wrapper.overflow-hidden.position-relative{
   padding: 10px;
 }
+
+.inner-pages-banner{
+  margin: 10vh auto 2vh auto;
+}
