@@ -3284,3 +3284,23 @@ img.spin {
     justify-content: center !important;
   }
 }​
+
+.placeholder-gray::placeholder{
+  color: #c1c1c1 !important;
+}
+
+input::placeholder ,textarea::placeholder{
+  color: #c1c1c1 !important;
+}
+
+
+
+a.btn.log-in-btn.focus-reset:hover  , a.btn.l-11-hero-btn:hover ,  a.download-trail-btn.btn.focus-reset:hover{
+  color: #2889fa !important;
+  font-size: larger;
+  font-weight: 600;
+}
+
+a.btn.l-11-hero-btn:hover ,  a.download-trail-btn.btn.focus-reset:hover{
+  background-color: #ffffff;
+}
